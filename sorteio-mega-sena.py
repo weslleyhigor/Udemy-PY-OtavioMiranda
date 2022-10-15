@@ -15,6 +15,7 @@ while contador <= 7:
     
     if sorteio in numero_sorteado:
         sorteio = random.choice(numero_aleatorio)
+        numero_sorteado.append(sorteio)
     else:
         numero_sorteado.append(sorteio) 
     contador +=1
